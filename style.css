@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: darkgrey;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.caja {
+  width: 432px;
+  height: 399px;
+  background-color: white;
+  border-radius: 1rem;
+  margin-top: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+}
+img {
+  margin-top: 50px;
+}
+
+.btn {
+  position: absolute;
+  right: 50px;
+  top: 35px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo1 {
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  border: none;
+  width: 150px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #ed6755;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px 0px #ed6755;
+  margin-bottom: 30px;
+}
+.btn1:hover {
+  background-color: #ff3b21;
+}
+.btn2 {
+  border: none;
+  width: 150px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #05167a;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px 0px #2c3e50;
+  margin-bottom: 30px;
+}
+.btn2:hover {
+  background-color: #0026ff;
+}
